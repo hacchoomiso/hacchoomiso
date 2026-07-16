@@ -1,63 +1,6 @@
-# Soke.0xai
-
-## About Me
-
-Japanese engineer with experience in AI, (almost) full-stack development, and systems architecture. Enjoys blending technical expertise with creative solutions across various platforms.
-
-### AI Development
-
-- Experienced in machine learning, full-stack development, and thoughtful architecture across various platforms.
-
-### System Architecture
-
-- Skilled in designing and building complex systems for Linux, Windows, and macOS environments.
-
-## Contact
-- mail: `soke.0xai@outlook.jp`, with [PGP Pub-Key](https://keys.openpgp.org/vks/v1/by-fingerprint/B40CEE23965BB2E79AF417CD01580E04336235B0)
-- Session: `057072934b976bfff64aa74519c0e4d820b06cc1cb9b1296cd13e64db548d6435d`
-
----
-
-## Skills & Expertise
-
-### AI & Machine Learning
-
-- Deep Learning
-- Neural Networks
-- Computer Vision
-- NLP
-- TensorFlow
-- PyTorch
-
-### Web Development
-
-- React
-- Node.js
-- TypeScript
-- Next.js
-- GraphQL
-- Tailwind CSS
-
-### System & Infrastructure
-
-- Linux/Unix
-- Windows Server
-- Docker
-- Kubernetes
-- CI/CD
-
-### Databases & Backend
-
-- PostgreSQL
-- MongoDB
-- Redis
-- GraphQL
-- REST APIs
-- Microservices
-
-### Security & Best Practices
-
-- OAuth 2.0
-- JWT
-- HTTPS/SSL
-- Code Reviews
+AI Resarch.
+- LLM Interpretability
+- LLM Unlearning
+- World Model
+- Extended FOL
+- AI & Soceity
