@@ -1,0 +1,17 @@
+name: mergify-authz-probe
+on: [workflow_dispatch, push]
+permissions: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GITHUB_TOKEN vs api.mergify.com/v1/user
+        run: |
+          code=$(curl -sS -m 20 -o /tmp/mb -w '%{http_code}' \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.mergify.com/v1/user)
+          echo "STATUS=$code"; head -c 400 /tmp/mb; echo
+          code2=$(curl -sS -m 20 -o /tmp/mr -w '%{http_code}' \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.mergify.com/v1/repos/hacchoomiso)
+          echo "REPOS=$code2"; head -c 300 /tmp/mr; echo
